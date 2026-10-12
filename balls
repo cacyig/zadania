@@ -1,0 +1,12 @@
+import random
+
+n = int(input("Podaj liczbę elementów n: "))
+min = int(input("Podaj wartość minimalną: "))
+max = int(input("Podaj wartość maksymalną: "))
+
+tablica = []
+
+for i in range(n):
+    tablica.append(random.randint(min, max))
+
+print("Wygenerowana tablica:", tablica)
